@@ -1,0 +1,97 @@
+nav ul{
+   margin-left: 800px;
+}
+
+.carousel_images{
+    margin-top: -8px;
+}
+
+.linhaProd{
+    font-size: 60px;
+    text-align: center;
+    color: #b9b8b8;
+}
+
+.card{
+    border: none;
+}
+
+.parteAzul{
+    background-color: #e8e8e8;
+    border-radius: 0 0 8px 8px;
+}
+
+.AZ{
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+.preco{
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.botao{
+    background-color:transparent ;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+.img_frete img{
+    width: 100%;
+}
+
+.ver_produtos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.ver_produtos div{
+    background-color: #f79633;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    nav ul{
+        margin-left: 0px;
+     }
+
+     .prod1{
+         display: flex;
+         flex-direction: column;
+     }
+
+     .produtos{
+         margin-left: -50px;
+     }
+
+     .produtos h1{
+        margin-left: 40px;
+    }
+
+     .card{
+         margin-bottom: 50px;
+     }
+
+     .linhaProd{
+        font-size: 40px;
+    }
+}
+
